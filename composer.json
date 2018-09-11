@@ -1,0 +1,18 @@
+{
+    "name": "psrcross/slimpsr",
+    "description": "Psr Autoloading Test ground",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tesimple tutorsuite",
+            "email": "tesimple0@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+            "psr-4": {
+                "LogicEngine\\": ["src/"]
+            }
+        }
+}
